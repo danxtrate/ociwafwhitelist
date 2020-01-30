@@ -16,6 +16,7 @@ To secure your WAF, you must configure your servers to accept traffic from the W
  - "compartmentId": "compartment OCID you noted at step 3"
  - "vcnId": "VCN OCID you noted at step 3"
  - Take a look at the [OCI WAF CIDR whitelist page] (https://docs.cloud.oracle.com/en-us/iaas/Content/WAF/Concepts/gettingstarted.htm) and compare with the CIDR blocks in the JSON file and make adjustments if needed. 
+ - The JSON file allows traffic on port 80 only, add destination port 443 if https is needed. 
 
 6. Save the file 
 
