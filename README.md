@@ -22,5 +22,5 @@ To secure your WAF, you must configure your servers to accept traffic from the W
 
 7. start the OCI CLI in the same folder you stored your JSON file, deploy the changes by issuing the following command:
 ```
-$ oci network security-list create --from-json file://filename.json
+$ oci network security-list create --from-json file://<filename>.json
 ```
