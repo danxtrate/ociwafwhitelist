@@ -13,10 +13,9 @@ To secure your WAF, you must configure your servers to accept traffic from the W
 4. Download the JSON file
 
 5. Open the JSON file with a preferred editor (Atom, Notepad++, Visual Studio Code) and change the following:
-
-  - "compartmentId": "compartment OCID you noted at step 3"
-  - "vcnId": "VCN OCID you noted at step 3"
-  - Take a look at the [OCI WAF CIDR whitelist page] (https://docs.cloud.oracle.com/en-us/iaas/Content/WAF/Concepts/gettingstarted.htm) and compare with the CIDR blocks in the JSON file and make adjustments if needed. 
+ - "compartmentId": "compartment OCID you noted at step 3"
+ - "vcnId": "VCN OCID you noted at step 3"
+ - Take a look at the [OCI WAF CIDR whitelist page] (https://docs.cloud.oracle.com/en-us/iaas/Content/WAF/Concepts/gettingstarted.htm) and compare with the CIDR blocks in the JSON file and make adjustments if needed. 
 
 6. Save the file 
 
