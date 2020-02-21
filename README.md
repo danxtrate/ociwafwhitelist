@@ -4,7 +4,7 @@ To secure your WAF, you must configure your servers to accept traffic from the W
 
 ## Prerequisites:
 
-1. Install and configure OCI CLI as per [this guide] (https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm)
+1. Start a Cloud Shell session OR Install and configure OCI CLI as per [this guide] (https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm)
 
 2. Create the VCN where the public facing endpoints will be connected (i.e. external LBaaS, web server). 
 
